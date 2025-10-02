@@ -9,7 +9,7 @@ Se utiliza **Git y GitHub** para la gestión de ramas, commits y pull requests.
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Marketplace Artesanal</title>
+ mercado  Artesanal
 </head>
 <body>
   <h1>Marketplace de Productos Artesanales</h1>
@@ -27,7 +27,15 @@ Se utiliza **Git y GitHub** para la gestión de ramas, commits y pull requests.
 # ( lista de productos)
 <head>
   <meta charset="UTF-8">
-  <title>Marketplace Artesanal</title>
+  mercado artesanal 
+   <ul>
+    <li>Sombrero de paja toquilla  </li>
+    <li>Bolso tejido a mano </li>
+    <li>Jarro de cerámica pintado </li>
+    <li>ropa tejida a mano </li>
+    <li>faldas con pintado a mano  </li>
+  </ul>
+  
   <link rel="stylesheet" href="styles.css">
 </head>
 
