@@ -24,7 +24,7 @@ Se utiliza **Git y GitHub** para la gestión de ramas, commits y pull requests.
 </html>
 
 
-# ( lista de productos)
+# (lista de productos
 <head>
   <meta charset="UTF-8">
   mercado artesanal 
@@ -45,7 +45,7 @@ Se utiliza **Git y GitHub** para la gestión de ramas, commits y pull requests.
 
 
 
-# ( formulario de contacto)
+#  formulario de contacto
 <h2>Contacto</h2>
 <form>
   <label for="nombre">Nombre:</label><br>
@@ -60,7 +60,7 @@ Se utiliza **Git y GitHub** para la gestión de ramas, commits y pull requests.
   <button type="submit">  Enviar </button>
 </form>
 
-# ( footer en style.css)
+
 <footer>
   <p>© 2025 mercado Artesanal</p>
 </footer>
