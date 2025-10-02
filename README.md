@@ -99,7 +99,7 @@ footer {
   <input type="email" id="correo" name="correo"><br><br>
 
   <label for="mensaje">Mensaje:</label><br>
-  <textarea id="mensaje" name="mensaje"></textarea><br><br>
+  <textarea ><br><br>
 
 
   <button> Enviar</button>
