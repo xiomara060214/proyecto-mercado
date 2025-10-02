@@ -71,6 +71,24 @@ li {
   text-align: center;
 }
 
+/* Pie de página */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  background: #4CAF50;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  footer p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+
 # ( formulario de contacto)
 <h2>Contacto</h2>
 <form>
@@ -88,24 +106,9 @@ li {
 
 # ( footer en style.css)
 <footer>
-  <p>© 2025 Marketplace Artesanal</p>
+  <p>© 2025 mercado Artesanal</p>
 </footer>
 
 
-footer {
-  margin-top: 20px;
-  text-align: center;
-  background: #4CAF50;
-  color: white;
-  padding: 10px;
-  border-radius: 8px;
-}
-
-@media (max-width: 600px) {
-  footer p {
-    font-size: 14px;
-    text-align: center;
-  }
-}
 
 
