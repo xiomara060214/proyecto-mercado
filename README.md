@@ -92,16 +92,17 @@ footer {
 # ( formulario de contacto)
 <h2>Contacto</h2>
 <form>
-  <label><br> for="nombre">Nombre:</label></br>
-  <input><br>type="text" id="nombre" name="nombre"<input></br>
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre"><br><br>
 
   <label for="correo">Correo:</label><br>
-  <input><br> type="email" id="correo" name="correo" </input></br>
+  <input type="email" id="correo" name="correo"><br><br>
 
-  <label><br> for="mensaje">Mensaje:</label></br>
-  <textarea><br>id="mensaje" name="mensaje"</textarea></br>
+  <label for="mensaje">Mensaje:</label><br>
+  <textarea id="mensaje" name="mensaje"></textarea><br><br>
 
-  <button> type="submit"Enviar</button>
+
+  <button> Enviar</button>
 </form>
 
 # ( footer en style.css)
