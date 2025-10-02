@@ -1,44 +1,103 @@
 # proyecto-mercado
 git clone https://github.com/xiomara/proyecto-mercado.git
-cd proyecto-mercado
+Proyecto académico para la creación de un marketplace de productos artesanales.  
+Se utiliza **Git y GitHub** para la gestión de ramas, commits y pull requests.
+
 
 # Estar en main y crear rama
-git checkout -b feature/productos
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Marketplace Artesanal</title>
+</head>
+<body>
+  <h1>Marketplace de Productos Artesanales</h1>
 
-# (aquí editas app.js para añadir lista de productos)
-git add .
-git commit -m "feat(productos): agregar lista inicial de productos"
+  <h2>Productos</h2>
+  <ul>
+    <li>Sombrero de paja toquilla - $25</li>
+    <li>Bolso tejido a mano - $30</li>
+    <li>Jarro de cerámica pintado - $15</li>
+  </ul>
+</body>
+</html>
 
-# Subir rama a GitHub
-git push -u origin feature/productos
 
-git checkout main
-git pull origin main
-git checkout -b feature/estilos
+# ( lista de productos)
+<head>
+  <meta charset="UTF-8">
+  <title>Marketplace Artesanal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-# (aquí editas style.css para mejorar el diseño)
-git add .
-git commit -m "feat(estilos): mejorar diseño responsivo"
 
-git push -u origin feature/estilos
 
-git checkout main
-git pull origin main
-git checkout -b feature/contacto
 
-# (aquí editas index.html para agregar formulario de contacto)
-git add .
-git commit -m "feat(contacto): agregar formulario de contacto"
 
-git push -u origin feature/contacto
+# ( diseño)
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
 
-git checkout main
-git pull origin main
-git checkout -b fix/estilos-footer
+h1 {
+  text-align: center;
+  color: #4CAF50;
+}
 
-# (aquí corriges el footer en style.css)
-git add .
-git commit -m "fix(footer): corregir alineación en pantallas pequeñas"
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
 
-git push -u origin fix/estilos-footer
+li {
+  background: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+# ( formulario de contacto)
+<h2>Contacto</h2>
+<form>
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre"><br><br>
+
+  <label for="correo">Correo:</label><br>
+  <input type="email" id="correo" name="correo"><br><br>
+
+  <label for="mensaje">Mensaje:</label><br>
+  <textarea id="mensaje" name="mensaje"></textarea><br><br>
+
+  <button type="submit">Enviar</button>
+</form>
+
+# ( footer en style.css)
+<footer>
+  <p>© 2025 Marketplace Artesanal</p>
+</footer>
+
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  background: #4CAF50;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  footer p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
 
