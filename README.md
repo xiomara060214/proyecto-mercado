@@ -43,51 +43,7 @@ Se utiliza **Git y GitHub** para la gestión de ramas, commits y pull requests.
 
 
 
-# ( diseño)
- <body> {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background-color: #f9f9f9;
-}
 
-h1 {
-  text-align: center;
-  color: #4CAF50;
-}
-
-ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  background: white;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  text-align: center;
-}
-
-/* Pie de página */
-footer {
-  margin-top: 20px;
-  text-align: center;
-  background: #4CAF50;
-  color: white;
-  padding: 10px;
-  border-radius: 8px;
-}
-
-@media (max-width: 600px) {
-  footer p {
-    font-size: 14px;
-    text-align: center;
-  }
-}
- </body>
 
 # ( formulario de contacto)
 <h2>Contacto</h2>
@@ -99,10 +55,9 @@ footer {
   <input type="email" id="correo" name="correo"><br><br>
 
   <label for="mensaje">Mensaje:</label><br>
-  <textarea ><br><br>
+  <textarea id="mensaje" name="mensaje"> </textarea><br><br>
 
-
-  <button> Enviar</button>
+  <button type="submit">  Enviar </button>
 </form>
 
 # ( footer en style.css)
