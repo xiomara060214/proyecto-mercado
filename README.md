@@ -44,7 +44,7 @@ Se utiliza **Git y GitHub** para la gestión de ramas, commits y pull requests.
 
 
 # ( diseño)
-body {
+ <body> {
   font-family: Arial, sans-serif;
   margin: 20px;
   background-color: #f9f9f9;
@@ -87,21 +87,21 @@ footer {
     text-align: center;
   }
 }
-
+ </body>
 
 # ( formulario de contacto)
 <h2>Contacto</h2>
 <form>
-  <label for="nombre">Nombre:</label><br>
-  <input type="text" id="nombre" name="nombre"><br><br>
+  <label><br> for="nombre">Nombre:</label></br>
+  <input><br>type="text" id="nombre" name="nombre"<input></br>
 
   <label for="correo">Correo:</label><br>
-  <input type="email" id="correo" name="correo"><br><br>
+  <input><br> type="email" id="correo" name="correo" </input></br>
 
-  <label for="mensaje">Mensaje:</label><br>
-  <textarea id="mensaje" name="mensaje"></textarea><br><br>
+  <label><br> for="mensaje">Mensaje:</label></br>
+  <textarea><br>id="mensaje" name="mensaje"</textarea></br>
 
-  <button type="submit">Enviar</button>
+  <button> type="submit"Enviar</button>
 </form>
 
 # ( footer en style.css)
